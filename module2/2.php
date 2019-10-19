@@ -22,7 +22,7 @@ $less->compileFile('less/2.less', 'css/2.css');
 <html lang="en">
 
     <head>
-        <title>module-1</title>
+        <title>module2</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />

@@ -22,7 +22,7 @@ $less->compileFile('less/1.less', 'css/1.css');
 <html lang="en">
 
     <head>
-        <title>Fundamentals of Project Management</title>
+        <title>Module1</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
@@ -38,10 +38,3 @@ $less->compileFile('less/1.less', 'css/1.css');
     
 
 </html>
-<script> 
-$(document).ready(function(){
-  $("#flip").click(function(){
-    $("#panel").slideToggle("slow");
-  });
-});
-</script>

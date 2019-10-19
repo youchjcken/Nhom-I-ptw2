@@ -1,0 +1,88 @@
+.module-14 {
+  margin-top: 50px;
+  background: #f3f4f4;
+}
+.module-14 .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.module-14 .swiper-pagination {
+  display: none;
+}
+.module-14 .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  padding: 50px;
+}
+.module-14 .swiper-slide .icon-14 {
+  position: absolute;
+  display: block;
+  margin-left: 30px;
+  margin-top: -30px;
+}
+.module-14 .swiper-slide .icon-14::before {
+  content: "\f27a";
+  font-family: 'FontAwesome';
+  font-size: 34px;
+  padding-right: 5px;
+  color: #fff;
+}
+.module-14 .swiper-slide .title-14 {
+  color: #d3d3d3;
+  font-size: 14px;
+  width: 350px;
+  height: 155px;
+  border: 1px solid gray;
+  background: #fff;
+  text-align: center;
+  padding-top: 30px;
+}
+.module-14 .swiper-slide .img-us {
+  float: left;
+}
+.module-14 .swiper-slide .your-name {
+  margin-top: 5px;
+  float: left;
+  font-size: 15px;
+}
+.module-14 .swiper-slide .your-name .job {
+  color: #adaeb0;
+  font-size: 12px;
+}
+.module-14 .item-iner {
+  text-align: center;
+}
+.module-14 .item-iner .doc-title {
+  color: #d3d3d3;
+  font-size: 16px;
+  text-align: center;
+}
+.module-14 .item-iner .bracket::before {
+  content: "\f10e";
+  font-family: 'FontAwesome';
+  font-size: 24px;
+  color: blue;
+}
+@media (min-width: 360px) and (max-width: 1040px) {
+  .module-14 .swiper-slide .your-name {
+    display: flex;
+    font-size: 16px;
+  }
+  .module-14 .swiper-slide .your-name .job {
+    margin-left: 15px;
+    margin-top: 5px;
+  }
+  .swiper-wrapper {
+    transform: unset !important;
+    display: block;
+  }
+  .swiper-wrapper .swiper-slide {
+    width: 100% !important;
+  }
+  .module-14 .swiper-container {
+    height: 100%;
+  }
+  .module-14 .swiper-slide .title-14 {
+    width: 100%;
+  }
+}

@@ -30,3 +30,10 @@
     vertical-align: super;
   }
 }
+@media only screen and (max-width: 640px) and (min-width: 360px) {
+  .type-1 .baner {
+    position: relative;
+    display: block;
+    padding-bottom: 15px;
+  }
+}

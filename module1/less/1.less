@@ -58,6 +58,54 @@
         }
     }
     .logo{
+        .sidepanel  {
+            display: none;
+            width: 0px;
+            position: fixed;
+            z-index: 1;
+            height: 250px;
+            top: 0;
+            right: 0;
+           
+            background-color:#fff;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+          }
+          
+          .sidepanel a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 15px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+          }
+          
+          .sidepanel a:hover {
+            color: #f1f1f1;
+          }
+          
+          .sidepanel .closebtn {
+            position: absolute;
+            top: 0;
+            right: 10px;
+            font-size: 36px;
+          }
+          
+          .openbtn {
+            display: none;
+            font-size: 20px;
+            cursor: pointer;
+            
+            color: white;
+            padding: 10px 15px;
+            border: none;
+          }
+          
+          .openbtn:hover {
+            background-color:#444;
+          }
         .logo-shop{
             display: block;
           margin-top: 20px;
@@ -113,7 +161,7 @@
              
                display: inline-block;
                .bbb1 a::before{
-                color: #000;
+                color: red;
                 content: "\f066";
                 font-family: 'FontAwesome';
                 font-size: 24px;
@@ -126,7 +174,7 @@
                 font-family: 'FontAwesome';
                 font-size: 24px;
                 padding-left: 10px;
-                color: #000;
+                color: red;
                    
 
                }
@@ -135,7 +183,7 @@
                 font-family: 'FontAwesome';
                 font-size: 24px;
                 padding-left: 10px;
-                color:#000;
+                color:red;
                    
 
                }
@@ -147,8 +195,16 @@
     
 }
 @media only screen and (max-width: 1024px){
+    .type-module1 {
+       
+     
+      margin-left: 10px;
+    }
     .type-module1 .title1 .mkd-position-left-inner a{
         display: none;
+    }
+    .type-module1 .logo {
+        border: none;
     }
     .type-module1 .logo .form-seach #panel{
         font-size: 8px;
@@ -159,5 +215,20 @@
     }
     .form-seach{
         display: none;
+    }
+  }
+  @media(min-width: 360px) and (max-width: 640px) {
+  
+    .type-module1 .logo .openbtn{
+        display: block;
+    }
+
+    .type-module1 .logo .logo-shop img{
+        width: 150px;
+    }
+    .type-module1 .logo .sidepanel{
+        display: block;
+       
+        
     }
   }
