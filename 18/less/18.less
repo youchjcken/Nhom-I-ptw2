@@ -1,0 +1,183 @@
+.type-18{
+    font-family:Montserrat,sans-serif;
+    .container{
+        padding: 30px;
+        .col-md-2{
+            padding-left: 60px;
+            .information{
+                text-align: center;
+                .img1{
+                    text-align: center;
+                    #author-icon {
+                        border-radius: 50%;
+                    }
+                }
+                a{
+                    font-size: 12px;
+                    color: #adaeb0;
+                    text-decoration: none;
+                }
+                span{
+                    font-size: 12px;
+                    color: #adaeb0;
+                }
+                a:hover{
+                    color: #5677fc;
+                }
+                .border{
+                    width: 100%;
+                    padding-top: 10px;
+                    border-bottom:#adaeb0 solid 1px ;
+                }
+            }
+        }
+        .col-md-7{
+            float: left;
+            font-family:Montserrat,sans-serif;
+            .post-mast{
+                h2{
+                    font-family: Montserrat,sans-serif;
+                    font-size: 30px;
+                    font-weight: 20px;
+                    a{
+                        color: black;
+                        text-decoration: none;
+                    }
+                    
+                }
+                a:hover{
+                    color: #5677fc;
+                }
+                p{
+                    color:#adaeb0 ;
+                }
+                .fa {
+                    padding-top: 5px;
+                    color: #adaeb0;
+                }
+                .fa:hover{
+                    color:#5677fc;
+                }
+                .getdate{
+                    i>a{
+                        text-decoration: none;
+                        color: #adaeb0;
+                        font-size: 15px;
+                    }
+                    i>a:hover{
+                        color: #5677fc;
+                    }
+                }
+                .month{
+                    text-decoration: none;
+                }
+                .year{
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    .img1 {
+       max-width: 100%; 
+    }
+    .menu-button{
+        @include transition(.4s);
+        position:absolute;
+        width:60px;
+        height:60px;
+        text-align:center;
+        line-height:60px;
+        font-size:20px;
+        padding-left:10px;
+        a{
+            @include transition(.4s);
+            opacity:0;
+            width:0px;
+            height:0px;
+            text-align:center;
+            line-height:50px;
+            font-size:10px;
+            border-radius:50%;
+            background:red;
+            &:nth-child(2){
+                @include transition-delay(0.3s);            
+                position:absolute;
+                right:25px;
+                bottom:30px;
+                background:blue;
+               
+            }
+            &:nth-child(3){
+                @include transition-delay(0.4s);
+                position:absolute;
+                 right:25px;
+                bottom:30px;
+                background:red;
+              
+            }
+            &:nth-child(4){
+                @include transition-delay(0.5s);
+                position:absolute;
+                 right:25px;
+                bottom:30px;
+                background:blue;
+               
+            }
+        }
+        &:hover{
+            a{
+                opacity:1;
+                width:50px;
+                height:50px;
+                &:nth-child(2){
+                    right:0px;
+                    bottom:-150px;
+                    &:hover{
+                        @include transition-delay(0s);
+                       
+                    }
+                }
+                &:nth-child(3){
+                    right:0px;
+                    bottom:-100px;
+                    &:hover{
+                        @include transition-delay(0s);
+                       
+                    }
+                }
+                &:nth-child(4){
+                    right:0px;
+                    bottom:-50px;
+                    &:hover{
+                        @include transition-delay(0s);
+                       
+                    }
+                }
+            }
+        }
+    }
+    #hinh2 {
+       max-width: 100%; 
+    }
+    
+    a {
+        font-size: 18px;
+        color: #000;
+    }
+    .information{
+        float: left;
+    }
+    @media only screen and(max-width: 991px){
+        .information{
+            visibility: hidden;
+            position: absolute;
+        }
+    }
+    
+    @media only screen and(max-width: 767px){
+        .information{
+            visibility: hidden;
+            position: absolute;
+        }
+    }
+}
