@@ -1,5 +1,9 @@
 .type-module3 {
+  width: 100%;
   margin: 20px;
+}
+.type-module3 .container {
+  width: 1380px;
 }
 .type-module3 .aa {
   float: right;
@@ -107,8 +111,15 @@
 .type-module3 .sanpham .icon-3 a:hover {
   color: blue;
 }
-@media (min-width: 360px) and (max-width: 1040px) {
+@media (min-width: 360px) and (max-width: 940px) {
+  .type-module3 .container {
+    width: 100%;
+  }
+  type-module3 .sanpham .rd .center-3 {
+    padding-left: 10px;
+  }
   .type-module3 .aa a {
+    margin-right: 10px;
     color: #000;
     font-size: 12px;
   }
@@ -131,5 +142,19 @@
   .col-md-3 {
     padding-left: 0;
     padding-right: 0;
+    padding-right: 10px;
+  }
+}
+@media (max-width: 940px) and (min-width: 360px) {
+  .col-md-3 {
+    margin-right: 15px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .type-module3 .sanpham .rd .center-3 {
+    padding-left: 0;
+  }
+  .type-module3 .sanpham .rdd .center-4 {
+    padding-left: 0px;
   }
 }

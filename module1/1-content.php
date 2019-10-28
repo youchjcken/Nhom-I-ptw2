@@ -24,22 +24,17 @@ $url_path = str_replace('\\', '/', $url_path);
     <br>
     <div class="logo">
         <div class="logo-shop"> <a href="#"><img src="./images/logo.jpg" alt="logo"></a></div>
-        <div id="mySidepanel" class="sidepanel">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-            <a href="#">Home</a>
-            <a href="#">Pages</a>
-            <a href="#">Shop</a>
-            <a href="#">Departments</a>
-            <a href="#">blog</a>
-        </div>
-        <button class="openbtn" onclick="openNav()">☰ </button>
+
+
         <div class="form-seach">
-            <div id="flip">All categories <i class="fa fa-caret-down"></i></div>
-            <div id="panel">
-                <div>Phone1</div>
-                <div>Phone2</div>
-                <div>Phone3</div>
-                <div>Phone4</div>
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">All Categories <i class="fa fa-caret-down"></i> </button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+
+                </div>
             </div>
             <input type="text" placeholder="Search for Product...">
             <span class="search-sp">
@@ -53,6 +48,8 @@ $url_path = str_replace('\\', '/', $url_path);
                 <span class="bbb3"><a href="#">(0)</a></span>
             </div>
 
+
+
         </div>
     </div>
 
@@ -60,19 +57,31 @@ $url_path = str_replace('\\', '/', $url_path);
 
 </div>
 
-<script>
+<!-- <script>
     $(document).ready(function() {
         $("#flip").click(function() {
             $("#panel").slideToggle("slow");
         });
     });
-</script>
+</script> -->
 <script>
-function openNav() {
-  document.getElementById("mySidepanel").style.width = "250px";
-}
+    /* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
 
-function closeNav() {
-  document.getElementById("mySidepanel").style.width = "0";
-}
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    }
 </script>

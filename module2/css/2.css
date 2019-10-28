@@ -1,39 +1,33 @@
-.type-1 {
-  margin-right: 155px;
-}
-.type-1 .baner {
+.type-2 .baner {
   position: relative;
   display: table-cell;
 }
-.type-1 .baner img {
-  margin-left: 20px;
+.type-2 .baner img {
+  width: 100%;
+  height: 100%;
 }
-.type-1 .baner h2 {
+.type-2 .baner h2 {
+  font-size: 24px;
   position: absolute;
-  margin-left: 40px;
+  margin-left: 20px;
   display: block;
   margin-top: 50px;
 }
-.type-1 .baner .shopnow {
+.type-2 .baner .shopnow {
   position: absolute;
-  margin-left: 40px;
+  margin-left: 20px;
   display: block;
   margin-top: 120px;
 }
 @media only screen and (max-width: 1224px) and (min-width: 520px) {
-  .type-1 .baner {
-    display: block;
-  }
-  .type-1 .baner img {
-    margin-left: 20px;
-    width: 100%;
-    vertical-align: super;
+  .type-2 .baner {
+    position: relative;
+    display: table-cell;
+    padding-left: 0px;
   }
 }
 @media only screen and (max-width: 640px) and (min-width: 360px) {
-  .type-1 .baner {
-    position: relative;
-    display: block;
-    padding-bottom: 15px;
+  .type-2 .rrr {
+    margin-bottom: 10px;
   }
 }

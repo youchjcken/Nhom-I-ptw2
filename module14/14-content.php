@@ -68,19 +68,34 @@ $url_path = str_replace('\\', '/', $url_path);
                         </span>
                     </div>
                 </div>
+                <div class="swiper-slide">
+                    <p class="title-14">“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. ”</p>
+                    <div class="icon-14"></div>
+                    <div>
+                        <div class="img-us">
+                            <img src="./images/us-2.png" alt="">
+                        </div>
+                        <span class="your-name">
+                            <div class="name">Luis Marshall</div>
+                            <div class="job">Sales Consultant</div>
+                        </span>
+                    </div>
+                </div>
             </div>
             <!-- Add Pagination -->
-            <div class="swiper-pagination"></div>
+            <div class="swiper-pagination">
+                
+            </div>
         </div>
     </div>
 </div>
 <script>
     var swiper = new Swiper('.swiper-container', {
-        slidesPerView: 3,
-        spaceBetween: 30,
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
+      slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
     });
-</script>
+  </script>
