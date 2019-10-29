@@ -1,0 +1,88 @@
+.type-5 {
+  background-image: url('../images/background.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+}
+.type-5 .box {
+  background: #fff;
+  padding: 40px 30px 50px 30px;
+  margin-top: 187px;
+}
+.type-5 .tong .image img {
+  width: 100%;
+}
+.type-5 .tong .money {
+  color: #15db00;
+  font-weight: bold;
+}
+.type-5 .tong .denon {
+  font-size: 16px;
+  width: 83%;
+}
+.type-5 .tong .denon a {
+  text-decoration: none;
+  color: #000;
+  transition-duration: 0.5s;
+}
+.type-5 .tong .denon a:hover {
+  color: #5677fc;
+  transition-duration: 0.5s;
+}
+.type-5 .tong .text a {
+  text-decoration: none;
+  color: #adaeb0;
+  transition-duration: 0.5s;
+}
+.type-5 .tong .text a:hover {
+  color: #5677fc;
+  transition-duration: 0.5s;
+}
+.type-5 .tong h5 {
+  color: #ff4b4b;
+}
+.type-5 .tong .times .time {
+  padding: 10px;
+  background: #e3e3e3;
+}
+.type-5 .tong .times {
+  margin-top: 20px;
+}
+.type-5 .tong .chu a {
+  text-decoration: none;
+  font-size: 10px;
+}
+.type-5 .tong .chu {
+  margin-top: 12px;
+}
+.type-5 .tong .chu a {
+  color: #000;
+}
+.type-5 .tong .chu .chu1 {
+  padding-left: 4px;
+}
+.type-5 .tong .chu .chu2 {
+  padding-left: 16px;
+}
+.type-5 .tong .chu .chu3 {
+  padding-left: 16px;
+}
+@media only screen and (max-width: 991px) {
+  .type-5 .tong .image img {
+    width: 30%;
+    position: absolute;
+  }
+  .type-5 .hai {
+    padding-left: 200px;
+  }
+  .type-5 .box {
+    background: #fff;
+    margin-top: 80px;
+    margin-bottom: 60px;
+  }
+  .type-5 .tong .test .hinh {
+    text-align: center;
+  }
+  .type-5 .test .hinh img {
+    width: 100%;
+  }
+}

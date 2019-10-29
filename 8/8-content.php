@@ -56,7 +56,9 @@ $url_host = 'http://' . $_SERVER['HTTP_HOST'];
                               <a href="#"><i class="fa fa-heart-o"></i></a>
                               </div>
                             </div>
-                            <img src="images/iphone-x-1.jpg" width="100%" class="img-responsive" alt="">
+                            <div class="fone">
+                              <img src="images/iphone-x-1.jpg" width="100%" class="img-responsive" alt="">
+                            </div>
                             <h5 class="title-product line-one">
                                 <a href="#">LG K10 LTE Silver 16GB Contact Free Smartphone</a>
                             </h5>
@@ -182,7 +184,9 @@ $url_host = 'http://' . $_SERVER['HTTP_HOST'];
                               <a href="#"><i class="fa fa-heart-o"></i></a>
                               </div>
                             </div>
-                            <img src="images/iphone-x-1.jpg" width="100%" class="img-responsive" alt="">
+                            <div class="fone">
+                                <img src="images/iphone-x-1.jpg" width="100%" class="img-responsive" alt="">
+                            </div>
                             <h5 class="title-product line-one">
                                 <a href="#">LG K10 LTE Silver 16GB Contact Free Smartphone</a>
                             </h5>
@@ -308,7 +312,7 @@ $url_host = 'http://' . $_SERVER['HTTP_HOST'];
                               <a href="#"><i class="fa fa-heart-o"></i></a>
                               </div>
                             </div>
-                            <img src="images/iphone-x-1.jpg" width="100%" class="img-responsive" alt="">
+                              <img src="images/iphone-x-1.jpg"  width="100%"  class="img-responsive" alt="">
                             <h5 class="title-product line-one">
                                 <a href="#">LG K10 LTE Silver 16GB Contact Free Smartphone</a>
                             </h5>

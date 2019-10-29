@@ -1,0 +1,295 @@
+.type-5 {
+  font-family: Montserrat, sans-serif;
+}
+.type-5 .yamm .nav,
+.type-5 .yamm .collapse,
+.type-5 .yamm .dropup,
+.type-5 .yamm .dropdown {
+  position: static;
+}
+.type-5 .yamm .dropdown-menu {
+  left: auto;
+}
+.type-5 .yamm .yamm-content {
+  padding: 20px 127px;
+  width: 122%;
+  margin-left: -102px;
+}
+.type-5 .yamm .dropdown.yamm-fw .dropdown-menu {
+  left: 0;
+  right: 0;
+}
+.type-5 .icon-left {
+  float: left;
+}
+.type-5 .navbar-header {
+  width: 300px;
+  background: #5677fc;
+}
+.type-5 .navbar-header .navbar-brand {
+  z-index: 9999;
+  color: #fff;
+  height: 65px;
+  line-height: 32.5px;
+  font-size: 16px;
+  margin-left: 32px;
+}
+.type-5 .list-menu {
+  padding: 25px;
+  list-style: none;
+}
+.type-5 .list-menu .menu-item {
+  position: relative;
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 22px;
+  margin-left: 30px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: #494949;
+  z-index: 9999;
+}
+.type-5 .list-menu .menu-item::before {
+  content: '';
+  position: absolute;
+  border-bottom-style: solid;
+  border-bottom-color: #5677fc;
+  bottom: 0;
+  transition: width 0.2s;
+  width: 0;
+}
+.type-5 .list-menu .menu-item:hover::before {
+  width: 100%;
+}
+.type-5 .list-menu li p {
+  float: right;
+  z-index: 100;
+}
+.type-5 .list-menu li .menu-to-right {
+  width: 500px;
+  height: 100%;
+  background-image: url(../images/md-4.jpg);
+  padding: 15px;
+  position: absolute;
+  transition: all 0.3s;
+  visibility: hidden;
+  top: 0;
+  left: 280px;
+  z-index: 50;
+}
+.type-5 .list-menu li:hover .menu-to-right {
+  visibility: visible;
+  left: 300px;
+}
+.type-5 .list-menu li .computers {
+  width: 500px;
+  height: 100%;
+  background-image: url(../images/md-5.jpg);
+  padding: 15px;
+  position: absolute;
+  transition: all 0.3s;
+  visibility: hidden;
+  top: 0;
+  left: 280px;
+  z-index: 50;
+}
+.type-5 .list-menu li:hover .computers {
+  visibility: visible;
+  left: 300px;
+}
+.type-5 .list-menu li .headphones {
+  width: 500px;
+  height: 100%;
+  background-image: url(../images/md-6.jpg);
+  padding: 15px;
+  position: absolute;
+  transition: all 0.3s;
+  visibility: hidden;
+  top: 0;
+  left: 280px;
+  z-index: 50;
+}
+.type-5 .list-menu li:hover .headphones {
+  visibility: visible;
+  left: 300px;
+}
+.type-5 .list-menu li .laptops {
+  width: 500px;
+  height: 100%;
+  background-image: url(../images/md-7.jpg);
+  padding: 15px;
+  position: absolute;
+  transition: all 0.3s;
+  visibility: hidden;
+  top: 0;
+  left: 280px;
+  z-index: 50;
+}
+.type-5 .list-menu li:hover .laptops {
+  visibility: visible;
+  left: 300px;
+}
+.type-5 .list-menu li .home {
+  width: 500px;
+  height: 100%;
+  background-image: url(../images/md-8.jpg);
+  padding: 15px;
+  position: absolute;
+  transition: all 0.3s;
+  visibility: hidden;
+  top: 0;
+  left: 280px;
+  z-index: 50;
+}
+.type-5 .list-menu li:hover .home {
+  visibility: visible;
+  left: 300px;
+}
+.type-5 .navbar {
+  margin-bottom: 0;
+}
+.type-5 .navbar-nav li a {
+  line-height: 30px;
+}
+.type-5 .navbar-default {
+  background-color: #fff;
+  border: none;
+  border-radius: unset;
+}
+.type-5 .active {
+  color: #5677fc !important;
+}
+.type-5 .dropdown-toggle {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.type-5 .navbar-toggle {
+  margin-top: 15px;
+  border: none;
+  border-radius: unset;
+}
+.type-5 .left-menu-custom {
+  background-color: #fff !important;
+  height: 455px !important;
+  position: absolute !important;
+  width: 300px !important;
+  top: 65px !important;
+  z-index: 9999 !important;
+}
+.type-5 .container-fluid {
+  padding-right: 100px !important;
+  padding-left: 100px !important;
+}
+.type-5 .nav-brand-2 {
+  position: absolute !important;
+  top: 7px !important;
+  left: 30px !important;
+}
+.type-5 #nav-brand-2 {
+  position: absolute;
+  top: 7px;
+  left: 30px;
+}
+@media only screen and (min-width: 767px) {
+  .type-5 #nav-brand-2 {
+    visibility: hidden;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .type-5 .navbar-header,
+  .type-5 .left-menu-custom {
+    visibility: hidden;
+  }
+  .type-5 .navbar-brand {
+    visibility: visible;
+  }
+}
+@media only screen and (max-width: 970px) {
+  .type-5 .navbar-header,
+  .type-5 .left-menu-custom {
+    position: absolute;
+    visibility: hidden;
+  }
+}
+@media only screen and (max-width: 1220px) {
+  .type-5 .container-fluid {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .type-5 .navbar-brand {
+    visibility: visible;
+  }
+  .type-5 .navbar-header,
+  .type-5 .left-menu-custom {
+    position: unset;
+  }
+}
+.type-5 li {
+  list-style: none;
+}
+.type-5 .cool-link {
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+  line-height: 35px;
+}
+.type-5 .cool-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #5677fc;
+  transition: width .3s;
+}
+.type-5 .cool-link:hover::after {
+  width: 100%;
+  color: red;
+}
+.type-5 .shop {
+  display: inline-block;
+  color: #5677fc;
+  text-decoration: none;
+  line-height: 35px;
+}
+.type-5 .shop::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #5677fc;
+  transition: width .3s;
+}
+.type-5 .shop:hover::after {
+  width: 100%;
+}
+.type-5 .limit {
+  color: #000;
+  font-size: 25px;
+  line-height: 35px;
+  text-decoration: none;
+}
+.type-5 .navbar-nav li a {
+  text-decoration: none;
+  display: inline-block;
+}
+.type-5 .name {
+  margin: 10px 0px;
+  font-weight: bold;
+}
+.type-5 .col-ms-3 {
+  width: 25%;
+  padding-left: 14px;
+}
+.type-5 .navbar-right .end span {
+  color: #000;
+}
+.type-5 .navbar-right .end span:hover {
+  color: #5677fc;
+  transition-duration: 0.5s;
+}
+.type-5 .wows1_0 {
+  color: black;
+}
