@@ -1,0 +1,205 @@
+.type-16 .col-md-6 {
+  margin-top: 70px;
+}
+.type-16 .col-md-6 .dropdown {
+  position: relative;
+  display: inline-block;
+  float: right;
+  margin-top: -54px;
+  margin-right: 30px;
+}
+.type-16 .col-md-6 .dropdown .btn {
+  background: #fff;
+  color: #000;
+  margin-right: 10px;
+  font-size: 12px;
+  cursor: pointer;
+  margin-top: 38px;
+}
+.type-16 .col-md-6 .dropdown .btn .ul {
+  background: #fff;
+}
+.type-16 .col-md-6 .dropdown .btn .ul .li {
+  color: #000;
+}
+.type-16 .col-md-6 .dropdown .btn .ul .li .a {
+  font-size: 11px;
+}
+.type-16 .col-md-6 .dropdown .btn .ul .li:hover {
+  background: #fff;
+}
+.type-16 .pagination {
+  margin-left: 37%;
+  display: inline-block;
+}
+.type-16 .pagination a {
+  text-align: center;
+  color: black;
+  float: left;
+  padding: 3px 6px;
+  text-decoration: none;
+}
+.type-16 .pagination a:hover {
+  color: #337ab7;
+}
+.type-16 .price .vv {
+  color: red;
+}
+.type-16 .price .nn {
+  color: #eee;
+  text-decoration: line-through;
+}
+.type-16 .kk i {
+  float: right;
+  position: absolute;
+  top: 58%;
+  left: 120%;
+}
+.type-16 .show {
+  display: block;
+}
+.type-16 .checked {
+  color: #dd8a27;
+}
+.type-16 .dropdown-content a {
+  background: #fff;
+  color: #eee;
+}
+.type-16 .dropdown-content a:hover {
+  background: #fff;
+  color: black;
+}
+.type-16 .bb span {
+  position: absolute;
+  top: 35%;
+  color: red;
+  left: 40%;
+}
+.type-16 .iconn .contai i {
+  display: flex;
+  float: right;
+  margin-right: 20px;
+  font-size: 27px;
+  margin-top: -34px;
+  border-radius: 50%;
+  color: red;
+}
+.type-16 .iconn .contai i:hover {
+  background: none;
+  color: none;
+}
+.type-16 .hh span {
+  position: absolute;
+  top: 9%;
+  text-transform: capitalize;
+  color: red;
+  font-weight: 500;
+}
+.type-16 .hinh12 .hinhkk {
+  opacity: 0.2;
+}
+.type-16 .thumbnails {
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+  display: inline-block;
+  padding: 0 20px;
+  margin: 0 0 40px;
+}
+.type-16 .thumbnails .comporter .compare {
+  position: relative;
+  margin-top: -24px;
+  float: right;
+  display: flex;
+  margin-right: 20px;
+  font-size: 17px;
+  padding: 0 10px;
+}
+.type-16 .thumbnails .comporter .compare a {
+  padding: 0 5px;
+}
+.type-16 .thumbnails .comporter .compare a i {
+  color: black;
+}
+.type-16 .thumbnails .comporter .compare a i:hover {
+  color: blue;
+}
+.type-16 .thumbnails:after {
+  content: '';
+  position: absolute;
+  left: 103%;
+  top: 0;
+  height: 100%;
+  width: 1px;
+  background-color: #e5e7f2;
+}
+.type-16 .category a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  text-decoration: none;
+}
+.type-16 .category a:hover {
+  color: blue;
+}
+.type-16 .price-w {
+  padding-top: 10px;
+}
+.type-16 .price-w .icon a i {
+  display: flex;
+  float: right;
+  margin-right: 20px;
+  font-size: 27px;
+  margin-top: -34px;
+  color: #000;
+  border-radius: 50%;
+  border: 1px solid #f7f9fb;
+  padding: 6px;
+}
+.type-16 .price-w .icon a i:hover {
+  background: #337ab7;
+  color: #fff;
+}
+.type-16 .price-w .stat {
+  visibility: hidden;
+}
+.type-16 .word {
+  width: 251px;
+  word-break: break-all;
+}
+.type-16 .word h5 a {
+  color: black;
+  font-size: 17px;
+  text-decoration: none;
+}
+.type-16 .word h5 a:hover {
+  text-decoration: none !important;
+  color: #337ab7;
+}
+.type-16 .price span {
+  font-size: 1.5em;
+}
+.type-16 .hosst {
+  width: 30px;
+  height: 10px;
+  padding-top: 40px;
+}
+@media (max-width: 850px) {
+  .thumbnails {
+    padding-left: 20px;
+  }
+}
+@media (max-width: 890px) {
+  .thumbnails {
+    display: none;
+  }
+}
+#hh:after {
+  content: '';
+  position: absolute;
+  left: 103%;
+  top: 0;
+  height: 100%;
+  width: 1px;
+  background-color: #fff;
+}
