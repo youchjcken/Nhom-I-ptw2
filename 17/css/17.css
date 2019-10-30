@@ -1,0 +1,15 @@
+.type-17 {
+  background-image: url(../images/17.jpg);
+  height: 200px;
+  width: 100%;
+  background-position: center;
+}
+.type-17 .grid {
+  text-align: center;
+}
+.type-17 .title {
+  color: #fff;
+  font-size: 4.2em;
+  line-height: 3em;
+  margin: 10px 0;
+}
