@@ -1,0 +1,68 @@
+img {
+  border-radius: 50%;
+}
+.title-post {
+  color: #000;
+}
+.post-content .col-md-2 a {
+  text-decoration: none;
+}
+.post-hoder h2 a {
+  text-decoration: none;
+}
+.post-hoder h2 a:hover {
+  color: #5677fc;
+}
+a.title-post {
+  text-decoration: none;
+}
+.type-23 .container .row .col-md-2 .information {
+  text-align: center;
+}
+.type-23 .container .row .col-md-2 .information .img1 {
+  text-align: center;
+}
+.type-23 .container .row .col-md-2 .information .img1 #author-icon {
+  border-radius: 50%;
+}
+.type-23 .container .row .col-md-2 .information a {
+  font-size: 12px;
+  color: #adaeb0;
+  text-decoration: none;
+}
+.type-23 .container .row .col-md-2 .information span {
+  font-size: 12px;
+  color: #adaeb0;
+}
+.type-23 .container .row .col-md-2 .information a:hover {
+  color: #5677fc;
+}
+.type-23 .container .row .col-md-2 .information .border {
+  width: 100%;
+  padding-top: 10px;
+  border-bottom: #adaeb0 solid 1px;
+}
+.type-23 .col-md-7 {
+  border: 1px solid #e5e7f2;
+}
+.type-23 .post-mast {
+  float: right;
+}
+.type-23 .post-mast span i:hover {
+  color: #5677fc;
+}
+.type-23 a {
+  text-decoration: none;
+}
+@media only screen and (max-width: 1192px) {
+  .information {
+    visibility: hidden;
+    position: absolute;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .information {
+    visibility: hidden;
+    position: absolute;
+  }
+}
