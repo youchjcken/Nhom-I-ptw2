@@ -17,7 +17,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>1158</title>
+        <title> module-15</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="<?php echo $url_path ?>./css/bootstrap.min.css" rel="stylesheet"/>

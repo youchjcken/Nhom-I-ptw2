@@ -90,7 +90,7 @@
                             </div>
                             <div class="word">
                                 <h5>
-                                    <a href="#">Apple Watch Sport 42mm New</a>
+                                    <a href="#">Apple Watch Sport Watch Sport 42mm New</a>
                                 </h5>
                             </div>
                             <div class="price">

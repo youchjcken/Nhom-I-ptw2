@@ -203,3 +203,6 @@
   width: 1px;
   background-color: #fff;
 }
+.title h5 {
+  margin-top: -8px;
+}
