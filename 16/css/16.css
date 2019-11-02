@@ -184,6 +184,18 @@
   height: 10px;
   padding-top: 40px;
 }
+.type-16 #hh:after {
+  content: '';
+  position: absolute;
+  left: 103%;
+  top: 0;
+  height: 100%;
+  width: 1px;
+  background-color: #fff;
+}
+.type-16 .title h5 {
+  margin-top: -8px;
+}
 @media (max-width: 850px) {
   .thumbnails {
     padding-left: 20px;
@@ -193,16 +205,4 @@
   .thumbnails {
     display: none;
   }
-}
-#hh:after {
-  content: '';
-  position: absolute;
-  left: 103%;
-  top: 0;
-  height: 100%;
-  width: 1px;
-  background-color: #fff;
-}
-.title h5 {
-  margin-top: -8px;
 }

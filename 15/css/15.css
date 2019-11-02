@@ -1,12 +1,12 @@
-.product .item {
+.type-15 .product .item {
   list-style: none;
 }
-.product .item a {
+.type-15 .product .item a {
   position: relative;
   text-decoration: none;
   color: #000;
 }
-.product .item a::before {
+.type-15 .product .item a::before {
   content: '';
   position: absolute;
   border-bottom: 2px solid #2321ae;
@@ -14,32 +14,32 @@
   width: 0;
   transition: all .2s;
 }
-.product .item:hover a::before {
+.type-15 .product .item:hover a::before {
   width: 100%;
 }
-.categories {
+.type-15 .categories {
   margin-left: 30px;
 }
-.layered {
+.type-15 .layered {
   margin-left: 30px;
 }
-.price {
+.type-15 .price {
   margin-left: 30px;
 }
-.thin {
+.type-15 .thin {
   padding-top: 40px;
   border: 1px solid #000;
   padding-bottom: 38px;
 }
-.product-team .nav-team {
+.type-15 .product-team .nav-team {
   list-style: none;
 }
-.product-team .nav-team a {
+.type-15 .product-team .nav-team a {
   position: relative;
   text-decoration: none;
   color: #000;
 }
-.product-team .nav-team a::before {
+.type-15 .product-team .nav-team a::before {
   content: '';
   position: absolute;
   border-bottom: 2px solid #2321ae;
@@ -47,17 +47,17 @@
   width: 0;
   transition: all .2s;
 }
-.product-team .nav-team:hover a::before {
+.type-15 .product-team .nav-team:hover a::before {
   width: 100%;
 }
-.button {
+.type-15 .button {
   width: 73px;
   border-radius: 15px;
   background: #6c6bdf;
 }
-.label {
+.type-15 .label {
   color: #000;
 }
-.hh {
+.type-15 .hh {
   width: 77%;
 }
