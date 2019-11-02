@@ -15,7 +15,7 @@ $url_path = str_replace('\\', '/', $url_path);
 <div class="type-1107">
     
     <div class="container">
-        <div class="row" style="background-image: url(/modul/22/images/1.jpg);">
+        <div class="row" style="background-image: url(../22/images/1.jpg);">
             <div class="thumnail">
                 <img src="../22/images/1.jpg" >
             </div>
