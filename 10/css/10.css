@@ -191,7 +191,12 @@
   top: 7px;
   left: 30px;
 }
-@media only screen and (min-width: 767px) {
+@media only screen and (max-width: 1025px) {
+  .type-5 .collapse .dropdown-toggle {
+    margin: 0;
+  }
+}
+@media only screen and (min-width: 768px) {
   .type-5 #nav-brand-2 {
     visibility: hidden;
   }
@@ -211,6 +216,34 @@
     position: absolute;
     visibility: hidden;
   }
+  .type-5 .swiper-container .content {
+    position: absolute;
+    transition: all 2s;
+    color: #000;
+    margin: -102px 0px 0px 0px;
+  }
+  .type-5 .swiper-container .content .title {
+    font-size: 2.3em;
+    width: 50%;
+    margin-bottom: 9px;
+  }
+  .type-5 .nut {
+    width: 51%;
+  }
+  .type-5 p {
+    width: 28%;
+    margin: 0 0 10px 110px;
+  }
+  .type-5 .swiper-container .content {
+    text-align: center !important;
+    top: 40% !important;
+    left: unset !important;
+    width: 100% !important;
+    color: #000;
+  }
+  .type-5 .swiper-container .content .caption {
+    padding-right: unset !important;
+  }
 }
 @media only screen and (max-width: 1220px) {
   .type-5 .container-fluid {
@@ -225,6 +258,10 @@
   .type-5 .navbar-header,
   .type-5 .left-menu-custom {
     position: unset;
+  }
+  .type-5 p {
+    width: 28%;
+    margin: 0 0 10px 69px;
   }
 }
 .type-5 li {
@@ -274,6 +311,7 @@
 .type-5 .navbar-nav li a {
   text-decoration: none;
   display: inline-block;
+  margin: 0;
 }
 .type-5 .name {
   margin: 10px 0px;
@@ -292,4 +330,83 @@
 }
 .type-5 .wows1_0 {
   color: black;
+}
+.type-5 .swiper-container {
+  width: 100%;
+  height: 450px;
+}
+.type-5 .swiper-container .content {
+  position: absolute;
+  transition: all 2s;
+  text-align: left;
+  top: 15%;
+  left: 33%;
+  width: 30%;
+  color: #000;
+}
+.type-5 .swiper-container .content .title {
+  font-size: 2.3em;
+  margin-bottom: 9px;
+}
+.type-5 .swiper-container .content .caption {
+  padding-right: 25%;
+}
+.type-5 .swiper-container:hover .swiper-button-next,
+.type-5 .swiper-container:hover .swiper-button-prev {
+  visibility: visible;
+}
+.type-5 .swiper-slide {
+  position: relative;
+  font-size: 16px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.type-5 .btn-grad {
+  background-image: linear-gradient(to right,#77A1D3 0%,#79CBCA 51%,#77A1D3 100%);
+  height: 50px;
+  width: 200px;
+  border-radius: 30px;
+  color: #fff;
+}
+.type-5 .btn-grad:hover {
+  background-position: right center;
+}
+.type-5 .swiper-button-next {
+  right: 30px;
+}
+.type-5 .swiper-button-prev {
+  left: 30px;
+}
+.type-5 .swiper-button-next,
+.type-5 .swiper-button-prev {
+  outline: none;
+  visibility: hidden;
+  font-weight: 700;
+  --swiper-navigation-size: 20px !important;
+  --swiper-theme-color: #ccc;
+}
+.type-5 .swiper-button-next::before,
+.type-5 .swiper-button-prev::before {
+  content: '';
+  position: absolute;
+  background: #fff;
+  border-radius: 100%;
+  z-index: -1;
+  height: 45px;
+  width: 45px;
+}
+.type-5 .swiper-button-next:hover,
+.type-5 .swiper-button-prev:hover {
+  --swiper-theme-color: blue;
 }

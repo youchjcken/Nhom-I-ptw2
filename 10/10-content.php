@@ -1,3 +1,13 @@
+<?php
+$url_host = 'http://' . $_SERVER['HTTP_HOST'];
+$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
+$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
+
+preg_match_all($pattern_uri, __DIR__, $matches);
+$url_path = $url_host . $matches[1][0];
+$url_path = str_replace('\\', '/', $url_path);
+?>
+
 <div class="type-5">
 	<div class="navbar navbar-default yamm">
 		<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse-2"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
@@ -196,7 +206,6 @@
 						<a class="active dropdown-toggle" href="#">Home</a>
 					</li>
 
-					<!-- Pages -->
 					<li class="dropdown yamm-fullwidth"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Pages<b class="caret"></b></a>
 						<ul class="dropdown-menu">
 							<li><a class="cool-link" href="#">About us</a></li>
@@ -211,7 +220,7 @@
 							<li><a class="cool-link" href="#">404 Error Page</a></li>
 						</ul>
 					</li>
-					<!-- Thumbnails demo -->
+
 					<li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Shop<b class="caret"></b></a>
 						<ul class="dropdown-menu">
 							<li>
@@ -277,7 +286,7 @@
 							<li><a class="cool-link" href="#">Masonry List</a></li>
 							<li><a class="cool-link" href="#">Standard List</a></li>
 							<li><a class="cool-link" href="#">Post Types</a></li>
-						</ul>	
+						</ul>
 					</li>
 					<li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Elements<b class="caret"></b></a>
 						<ul class="dropdown-menu">
@@ -294,7 +303,8 @@
 												<li><a class="cool-link" href="#">Product Carousel</a></li>
 												<li><a class="cool-link" href="#">Product Slider</a></li>
 												<li><a class="cool-link" href="#">Value Deal</a></li>
-												<li><a class="cool-link" href="#">Value Deal Slider</a></li>										</ul>
+												<li><a class="cool-link" href="#">Value Deal Slider</a></li>
+											</ul>
 										</div>
 										<div class="col-sm-3">
 											<ul>
@@ -339,9 +349,9 @@
 							</li>
 						</ul>
 					</li>
-				</ul> <!-- End nav menu -->
+				</ul>
 				<ul class="nav navbar-nav navbar-right">
-					<!-- Forms -->
+
 					<li class="end">
 						<a>Call us toll free: <span>(+1)866-540-3229</span></a>
 					</li>
@@ -350,23 +360,45 @@
 		</div>
 	</div>
 
-	<div id="wowslider-container1">
-		<div class="ws_images">
-			<ul>
-				<li><img src="images/md-1.jpg" alt="We Carry The Latest" title="We Carry The Latest" />
-					<h4 style="width: 50%">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, fugiat
-						eaque?</h4>
-				</li>
-				<li><img src="images/md-2.jpg" alt="Subway Station" title="Smartphones up to 30%" />
-					<h4 style="width: 50%">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, fugiat
-						eaque?</h4>
-				</li>
-				<li><img src="images/md-3.jpg" alt="Train" title="Check Out Our Upcoming" />
-					<h4 style="width: 50%">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, fugiat
-						eaque?</h4>
-				</li>
-			</ul>
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide" style="background: url(images/md-1.jpg) 70%/ cover;">
+				<div class="content">
+					<div class="title">We Carry the Latest <strong>Equipment</strong> </div>
+					<div class="caption">
+						<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+					</div>
+					<div class="nut">
+						<button class="btn btn-grad">Shop Now</button>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide" style="background: url(images/md-2.jpg) 70%/ cover;">
+				<div class="content">
+					<div class="title">Smartphones up to <strong>-30%</strong> off</div>
+					<div class="caption">
+						<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+					</div>
+					<div class="nut">
+						<button class="btn btn-grad">Shop Now</button>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide" style="background: url(images/md-3.jpg) 70%/ cover;">
+				<div class="content">
+					<div class="title">Check Out Our Upcoming <strong>Offers</strong></div>
+					<div class="caption">
+						<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+					</div>
+					<div class="nut">
+						<button class="btn btn-grad">Shop Now</button>
+					</div>
+				</div>
+			</div>
+
 		</div>
-		<div class="ws_shadow"></div>
+		<!-- Add Arrows -->
+		<div class="swiper-button-next"></div>
+		<div class="swiper-button-prev"></div>
 	</div>
 </div>
