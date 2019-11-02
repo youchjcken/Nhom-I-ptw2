@@ -16,7 +16,7 @@ $url_path = str_replace('\\', '/', $url_path);
             <span><a href="#">GIFT CARDS</a></span>
         </div>
         <div class="mkd-position-right-inner">
-            <span class="aaa1"><a href="#">STORE LOCATOR</a></span>
+            <span class="aaa1"><a href="#">STORE LOCATOR </a></span>
             <span class="aaa2"><a href="#">TRACK YOUR ORDER</a></span>
             <span class="aaa3"><a href="#">TRACK YOUR ORDER</a></span>
         </div>
@@ -57,6 +57,15 @@ $url_path = str_replace('\\', '/', $url_path);
 
 </div>
 
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">Home</a>
+    <a href="#">Blog</a>
+    <a href="#">Page</a>
+    <a href="#">Contact</a>
+</div>
+<span class="click-menu" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
 <!-- <script>
     $(document).ready(function() {
         $("#flip").click(function() {
@@ -83,5 +92,14 @@ toggle between hiding and showing the dropdown content */
                 }
             }
         }
+    }
+</script>
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
     }
 </script>
