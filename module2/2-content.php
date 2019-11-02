@@ -10,7 +10,7 @@ $url_path = str_replace('\\', '/', $url_path);
 <div class="type-2">
     <div class="container">
         <div class="row">
-            <div class="col-md-4 rrr">
+            <div class="col-md-4  col-ms-6 rrr">
                 <div class="baner">
                     <h2>Mobiles &amp;
                         <br>
@@ -21,7 +21,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
                 </div>
             </div>
-            <div class="col-md-4 rrr">
+            <div class="col-md-4 col-ms-6 rrr">
                 <div class="baner">
                     <h2>Gadgets &amp;
                         <br>
@@ -32,7 +32,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
                 </div>
             </div>
-            <div class="col-md-4 rrr">
+            <div class="col-md-4 col-ms-6 rrr">
                 <div class="baner">
                     <h2>Computer &amp;
                         <br>
