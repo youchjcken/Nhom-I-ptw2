@@ -1,19 +1,18 @@
 .type-2{
     
-    
+   
     .baner{
+        
         position: relative;
-        display: table-cell;
        
         img{
+          height: 100%;
             width: 100%;
-            height: 100%;
         }
-       
         h2{
             font-size: 24px;
             position: absolute;
-            margin-left: 20px;
+            margin-left:20px;
             display: block;
             margin-top: 50px;
         }
@@ -26,21 +25,27 @@
         }
     }
 }
-@media only screen and (max-width: 1224px)  and (min-width: 520px){
-    .type-2 .baner {
-        text-align: center;
-        width: 726px;
-        position: relative;
-        display: table-cell;
-        padding-left: 0px;
+@media only screen and (max-width: 1198px)  {
+    .type-2 .baner h2 {
+        height: 100%;
+        font-size: 24px;
+        position: absolute;
+        margin-left: 10px;
+        display: block;
+        margin-top: 50px;
     }
-   
-  }
-  @media only screen and (max-width: 960px)  and (min-width: 360px){
+    .type-2 .baner img {
+        height: 150px;
+        width: 100%;
+    }
     
-    .type-2 .rrr{
-        margin-left: 20px;
-        margin-bottom: 10px;
+    
+  }
+  @media only screen and (max-width: 990px)  and (min-width: 360px){
+    
+    .type-2 .baner {
+        position: relative;
+        margin-bottom: 20px;
     }
     
   }
