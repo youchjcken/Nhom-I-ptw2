@@ -26,38 +26,12 @@ $less->compileFile('less/10.less', 'css/10.css');
   <link href="<?php echo $url_path ?>/css/10.css" rel="stylesheet" type="text/css" />
   <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-  <script src="<?php echo $url_path ?>/js/10.js"></script>
   <script src="<?php echo $url_path ?>/js/jquery-3.1.1.min.js"></script>
   <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
-
 </head>
-
 <body>
   <?php include '10-content.php'; ?>
   <script type="text/javascript" src="js/swiper.min.js"></script>
-
-  <script>
-    var swiper = new Swiper('.swiper-container', {
-      effect: 'fade',
-      loop: true,
-      speed: 1000,
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-      autoplay: {
-        delay: 1000000000,
-        disableOnInteraction: false
-      },
-    });
-    swiper.on('slideChange', function() {
-      $('.content').css('left', '36%');
-      setTimeout(function() {
-        $('.content').css('left', '34%');
-      }, 1000);
-    });
-  </script>
+  <script src="<?php echo $url_path ?>/js/10.js"></script>
 </body>
-
 </html>

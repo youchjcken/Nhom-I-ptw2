@@ -18,11 +18,11 @@ $url_path = str_replace('\\', '/', $url_path);
 				<div class="left-menu-custom">
 					<ul class="list-menu">
 						<li>
-							<span class="icon-left"><i class="far fa-star"></i></span><a href="#" class="menu-item">Today’s Value Deals</a>
+							<span class="icon-left"><i class="fa fa-star"></i></span><a href="#" class="menu-item">Today’s Value Deals</a>
 						</li>
 						<li>
 							<p><strong>></strong></p>
-							<span class="icon-left"><i class="fas fa-mobile-alt"></i></span><a href="#" class="menu-item">Mobile Phones</a>
+							<span class="icon-left"><i class="fa fa-desktop"></i></span><a href="#" class="menu-item">Mobile Phones</a>
 							<div class="menu-to-right">
 								<div class="row">
 									<div class="br"></div>
@@ -57,7 +57,7 @@ $url_path = str_replace('\\', '/', $url_path);
 						<li>
 
 							<p><strong>></strong></p>
-							<span class="icon-left"><i class="fas fa-desktop"></i></span><a href="#" class="menu-item">Computers</a>
+							<span class="icon-left"><i class="fa fa-desktop"></i></span><a href="#" class="menu-item">Computers</a>
 							<div class="computers">
 								<div class="row">
 									<div class="br"></div>
@@ -88,14 +88,14 @@ $url_path = str_replace('\\', '/', $url_path);
 							</div>
 						</li>
 						<li>
-							<span class="icon-left"><i class="far fa-lightbulb"></i></span><a href="#" class="menu-item">Accessories</a>
+							<span class="icon-left"><i class="fa fa-lightbulb"></i></span><a href="#" class="menu-item">Accessories</a>
 						</li>
 						<li>
-							<span class="icon-left"><i class="fas fa-camera"></i></span><a href="#" class="menu-item">Cameras & Video</a>
+							<span class="icon-left"><i class="fa fa-camera"></i></span><a href="#" class="menu-item">Cameras & Video</a>
 						</li>
 						<li>
 							<p><strong>></strong></p>
-							<span class="icon-left"><i class="fas fa-adjust"></i></span><a href="#" class="menu-item">Headphones</a>
+							<span class="icon-left"><i class="fa fa-adjust"></i></span><a href="#" class="menu-item">Headphones</a>
 							<div class="headphones">
 								<div class="row">
 									<div class="br"></div>
@@ -126,14 +126,14 @@ $url_path = str_replace('\\', '/', $url_path);
 							</div>
 						</li>
 						<li>
-							<span class="icon-left"><i class="fas fa-book"></i></span><a href="#" class="menu-item">Books & Audible</a>
+							<span class="icon-left"><i class="fa fa-book"></i></span><a href="#" class="menu-item">Books & Audible</a>
 						</li>
 						<li>
-							<span class="icon-left"><i class="fas fa-print"></i></span><a href="#" class="menu-item">Office</a>
+							<span class="icon-left"><i class="fa fa-print"></i></span><a href="#" class="menu-item">Office</a>
 						</li>
 						<li>
 							<p><strong>></strong></p>
-							<span class="icon-left"><i class="fas fa-mobile-alt"></i></span><a href="#" class="menu-item">Laptops & Tablets</a>
+							<span class="icon-left"><i class="fa fa-print"></i></span><a href="#" class="menu-item">Laptops & Tablets</a>
 							<div class="laptops">
 								<div class="row">
 									<div class="br"></div>
@@ -165,7 +165,7 @@ $url_path = str_replace('\\', '/', $url_path);
 						</li>
 						<li>
 							<p><strong>></strong></p>
-							<span class="icon-left"><i class="fas fa-power-off"></i></span><a href="#" class="menu-item">Home Appliances</a>
+							<span class="icon-left"><i class="fa fa-power-off"></i></span><a href="#" class="menu-item">Home Appliances</a>
 							<div class="home">
 								<div class="row">
 									<div class="br"></div>
