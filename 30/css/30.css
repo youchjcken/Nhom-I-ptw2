@@ -1,0 +1,207 @@
+.type-30 {
+  background: #fff;
+  font-family: Montserrat, sans-serif;
+}
+.type-30 .chu h3 {
+  font-size: 18px;
+  margin: 10px 0px 30px 0;
+}
+.type-30 .cls2 p {
+  font-size: 14px;
+  line-height: 2em;
+  color: #787878;
+}
+.type-30 .btn-grad {
+  background-image: linear-gradient(to right,#77A1D3 0%,#79CBCA 51%,#77A1D3 100%);
+  height: 38px;
+  width: 131px;
+  border-radius: 30px;
+  color: #fff;
+  margin: 0;
+}
+.type-30 .btn-grad:hover {
+  background-position: right center;
+}
+.type-30 .swiper-button-next {
+  right: 30px;
+}
+.type-30 body {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #212121;
+}
+.type-30 .cls1 h5 {
+  font-size: 14px;
+  line-height: 2em;
+  color: #787878;
+}
+.type-30 .gach {
+  height: 1.5px;
+  display: block;
+  width: 68%;
+  background-color: #5677fc;
+  margin-top: -22px;
+}
+@media only screen and (max-width: 1199px) {
+  .type-30 .styles-table .text2 {
+    margin-left: -15px;
+  }
+  .type-30 .styles-table .class2 .thu {
+    width: 80%;
+  }
+  .type-30 .styles-table .hinh1 {
+    margin-left: -43px;
+  }
+  .type-30 .styles-table .hinh2 {
+    margin-left: -35px;
+  }
+  .type-30 .styles-table .hinh3 {
+    margin-left: -30px;
+  }
+  .type-30 .styles-table .thu {
+    margin-left: 25px;
+  }
+  .type-30 .cls1 .sidebar-nav {
+    width: 100%;
+  }
+}
+.type-30 .gift {
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  padding: 10px 0px 10px 40px;
+}
+.type-30 .gift .end1 {
+  display: block;
+  font-size: 20px;
+}
+.type-30 .gift .end2 {
+  width: 100px;
+  font-size: 30px;
+  color: #5677fc;
+  text-decoration: none;
+}
+.type-30 .gift .end2::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #5677fc;
+  transition: width .1s;
+}
+.type-30 .gift .end2:hover::after {
+  width: 49%;
+  margin-left: 80px;
+}
+.type-30 .gift img {
+  height: 70px;
+  width: 70px;
+  margin-left: -20px;
+}
+.type-30 .dropdown-menu {
+  display: none;
+}
+.type-30 .box a {
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+  margin: 19px 0px 13px 0px;
+}
+.type-30 .box a:hover {
+  color: #5677fc;
+  transition-duration: 0.5s;
+}
+.type-30 .box a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #5677fc;
+  transition: width .3s;
+}
+.type-30 .box a:hover::after {
+  width: 100%;
+}
+.type-30 .sidebar-nav .dropdown .dropdown-menu li a {
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+}
+.type-30 .sidebar-nav .dropdown .dropdown-menu li a:hover {
+  color: #5677fc;
+  transition-duration: 0.5s;
+}
+.type-30 .sidebar-nav .dropdown .dropdown-menu li a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #5677fc;
+  transition: width .3s;
+}
+.type-30 .sidebar-nav .dropdown .dropdown-menu li a:hover::after {
+  width: 100%;
+}
+@media (max-width: ) {
+  .type-30 .sidebar-stacked.open + .wrapper .constructor {
+    margin-left: ;
+  }
+}
+.type-30 .sidebar {
+  position: relative;
+  display: block;
+  min-height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border: none;
+}
+.type-30 .sidebar::-webkit-scrollbar-track {
+  border-radius: 2px;
+}
+.type-30 .sidebar::-webkit-scrollbar {
+  width: 5px;
+  background-color: #F7F7F7;
+}
+.type-30 .sidebar::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #BFBFBF;
+}
+.type-30 .sidebar .sidebar-nav {
+  margin: 0;
+  padding: 0;
+}
+.type-30 .sidebar .sidebar-nav li {
+  position: relative;
+  list-style-type: none;
+}
+.type-30 .sidebar .sidebar-nav li a {
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+  color: #000;
+  display: block;
+  height: 48px;
+  line-height: 48px;
+  padding: 0;
+  padding-left: ;
+  padding-right: ;
+  text-decoration: none;
+  clear: both;
+  font-weight: ;
+}
+.type-30 .sidebar .sidebar-nav li a .caret {
+  position: absolute;
+  right: /2 - 4px;
+  top: 24px;
+}
+.type-30 .sidebar .sidebar-nav li a:hover {
+  background: transparent;
+}
+.type-30 .sidebar .sidebar-nav .dropdown-menu {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+}
