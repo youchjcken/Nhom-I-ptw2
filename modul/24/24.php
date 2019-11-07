@@ -23,14 +23,11 @@
         <link href="<?php echo $url_path ?>/css/bootstrap-v3.3.7.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/24.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" type="text/css" href="<?php echo $url_path ?>/css/swiper.min.css">
-        <link rel="stylesheet" type="text/css" href="css/styles-slider.css">
         <script src="<?php echo $url_path ?>/js/jquery-3.1.1.min.js"></script>
         <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
     </head>
     <body>
         <?php include '24-content.php'; ?>
-        <script type="text/javascript" src="<?php echo $url_path ?>/js/wowslider.js"></script>
-        <script type="text/javascript" src="<?php echo $url_path ?>/js/wowslider-engine.js"></script> 
+        <script src="<?php echo $url_path ?>/js/24.js"></script>
     </body>
 </html>

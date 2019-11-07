@@ -1,4 +1,4 @@
-.type-23 {
+.type-24 {
   background: #fff;
 
   body {
@@ -160,9 +160,6 @@
     display: none;
   }
   
-
-
-
   //gạch dưới hover
 .sidebar-nav .dropdown .dropdown-menu li a {
   display: inline-block;
@@ -189,144 +186,83 @@
 }
 
 
-  //bảng
-  @media (max-width: @screen-tablet) {
-    .sidebar-stacked.open + .wrapper .constructor{
-      margin-left: @sidebar-width; 
-    }
-  }
-  @zindex-sidebar-fixed: 1035;
-  
-  @sidebar-desktop-width: 100%;
-  @sidebar-width: 240px;
-  
-  
-  @sidebar-divider: @sidebar-padding/2;
-  
-  @sidebar-nav-height: 48px;
-  
-  @sidebar-icon-width: 40px;
-  @sidebar-icon-size: 20px;
-  
-  @sidebar-badge-size: @sidebar-nav-height/2;
-  @sidebar-badge-font-size: 10px;
-  
-  @sidebar-brand-color: @gray-dark;
-  @sidebar-icon-color: @gray-dark;
-  @sidebar-menu-color: @gray-darker;
-  
-  .sidebar-block() {
-    display: block;
-    height: @sidebar-nav-height;
-    line-height: @sidebar-nav-height;
-    padding: 0;
-    padding-left: @sidebar-padding;
-    padding-right: (@sidebar-padding + @sidebar-badge-size) + @sidebar-padding;
-    text-decoration: none;
-    clear: both;
-    font-weight: @sidebar-font-weight;
-    .text-overflow();
-    .transition(all .2s ease-in-out);
-  
-  
-    // positioning caret in sidebar block
-    .caret {
-      position: absolute;
-      right: @sidebar-padding + @sidebar-badge-size/2 - 4px; // caret centered by badge position; 4px - caret width
-      top: @sidebar-nav-height/2;
-    }
-    // positioning badge in sidebar block
-  }
-  
-  .sidebar {
-    position: relative;
-    display: block;
-    min-height: 100%;
-    overflow-y: auto;
-    overflow-x: hidden;
-    border: none;
-    .transition(all 0.5s cubic-bezier(0.55, 0, 0.1, 1));
-
-    .clearfix();
-
-    &::-webkit-scrollbar-track {
-      border-radius: 2px;
-    }
-  
-    &::-webkit-scrollbar {
-      width: 5px;
-      background-color: #F7F7F7;
-    }
-  
-    &::-webkit-scrollbar-thumb {
-      border-radius: 10px;
-      // -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-      background-color: #BFBFBF;
-    }
-  }
-
-  .sidebar .sidebar-nav {
-    margin: 0;
-    padding: 0;
-  
-    li {
-      position: relative;
-      list-style-type: none;
-  
-      a {
-        position: relative;
-        cursor: pointer;
-        user-select: none;
-        color: #000;
-        .sidebar-block();
-  
-        &:hover {
-          background: transparent;
-        }
+    //bảng
+    @media (max-width: @screen-tablet) {
+      .sidebar-stacked.open + .wrapper .constructor{
+        margin-left: @sidebar-width; 
       }
     }
   
-    .dropdown-menu {
-      position: relative;
-      width: 100%;
+    @sidebar-desktop-width: 100%;
+    @sidebar-divider: @sidebar-padding/2;
+    @sidebar-nav-height: 48px;
+    @sidebar-icon-width: 40px;
+    @sidebar-icon-size: 20px;
+  
+    .sidebar-block() {
+      display: block;
+      height: @sidebar-nav-height;
+      line-height: @sidebar-nav-height;
+      padding: 0;
+      text-decoration: none;
+      clear: both;
+      .text-overflow();
+      .transition(all .2s ease-in-out);
+    
+  
+    }
+    
+    .sidebar {
+      overflow-y: auto;
+      overflow-x: hidden;
+      .transition(all 0.5s cubic-bezier(0.55, 0, 0.1, 1));
+      .clearfix();
+      &::-webkit-scrollbar-track {
+        border-radius: 2px;
+      }
+    
+      &::-webkit-scrollbar {
+        width: 5px;
+        background-color: #F7F7F7;
+      }
+    
+      &::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: #BFBFBF;
+      }
+    }
+  
+    .sidebar .sidebar-nav {
       margin: 0;
       padding: 0;
-      border: none;
-      border-radius: 0;
-      .box-shadow(none);
-    }
-  }
-  
-
-  // thu nhỏ
-  .sidebar {
-    width: 0;
-    .translate3d(-@sidebar-desktop-width, 0, 0);
-  
-    &.open {
-      min-width: @sidebar-desktop-width;
-      width: @sidebar-desktop-width;
-      .translate3d(0, 0, 0);
-    }
-  }
-  
-  @media (max-width: @screen-tablet) {
-    .sidebar.open {
-      min-width: @sidebar-width;
-      width: @sidebar-width;
-    }
-  
-    .sidebar .sidebar-header {
-      height: @sidebar-width * 9/16;
-    }
-  
-    .sidebar .sidebar-image {
-      img {
-        width: @sidebar-width/4 - @sidebar-padding;
-        height: @sidebar-width/4 - @sidebar-padding;
+    
+      li {
+        position: relative;
+        list-style-type: none;
+    
+        a {
+          position: relative;
+          cursor: pointer;
+          user-select: none;
+          color: #000;
+          .sidebar-block();
+    
+          &:hover {
+            background: transparent;
+          }
+        }
+      }
+    
+      .dropdown-menu {
+        position: relative;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border: none;
+        border-radius: 0;
+        .box-shadow(none);
       }
     }
-  }
 }
 
 

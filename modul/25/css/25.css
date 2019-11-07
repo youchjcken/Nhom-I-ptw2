@@ -1,49 +1,49 @@
-.type-23 {
+.type-25 {
   background: #fff;
   font-family: Montserrat, sans-serif;
 }
-.type-23 body {
+.type-25 body {
   font-weight: 300;
   font-size: 14px;
   line-height: 1.4;
   color: #212121;
 }
-.type-23 .ngoai h5 {
+.type-25 .ngoai h5 {
   font-size: 14px;
   line-height: 2em;
   color: #787878;
 }
-.type-23 .gach {
+.type-25 .gach {
   height: 1.5px;
   display: block;
   width: 68%;
   background-color: #5677fc;
   margin-top: -22px;
 }
-.type-23 .styles-table {
+.type-25 .styles-table {
   margin: 5px 0;
   border: 1px solid #ccc;
   padding: 10px 0px 10px 40px;
 }
-.type-23 .styles-table .thu {
+.type-25 .styles-table .thu {
   width: 90%;
 }
-.type-23 .styles-table img {
+.type-25 .styles-table img {
   height: 70px;
   width: 70px;
   margin-left: -20px;
 }
-.type-23 .styles-table .text1 {
+.type-25 .styles-table .text1 {
   display: block;
   font-size: 20px;
 }
-.type-23 .styles-table .text2 {
+.type-25 .styles-table .text2 {
   font-size: 30px;
   display: inline-block;
   color: #5677fc;
   text-decoration: none;
 }
-.type-23 .styles-table .text2::after {
+.type-25 .styles-table .text2::after {
   content: '';
   display: block;
   width: 0;
@@ -51,70 +51,70 @@
   background: #5677fc;
   transition: width .1s;
 }
-.type-23 .styles-table .text2:hover::after {
+.type-25 .styles-table .text2:hover::after {
   width: 100%;
 }
-.type-23 .styles-table .text0 {
+.type-25 .styles-table .text0 {
   font-size: 20px;
 }
 @media only screen and (max-width: 991px) {
-  .type-23 .styles-table {
+  .type-25 .styles-table {
     text-align: center;
   }
-  .type-23 .cuoi1 {
+  .type-25 .cuoi1 {
     text-align: center;
   }
-  .type-23 .gift .end2 {
+  .type-25 .gift .end2 {
     margin-left: -47px;
     text-align: center;
   }
-  .type-23 .end1 {
+  .type-25 .end1 {
     margin-left: -10px;
     text-align: center;
   }
-  .type-23 .cuoi2 {
+  .type-25 .cuoi2 {
     text-align: center;
   }
 }
 @media only screen and (max-width: 1199px) {
-  .type-23 .styles-table .text2 {
+  .type-25 .styles-table .text2 {
     margin-left: -15px;
   }
-  .type-23 .styles-table .class2 .thu {
+  .type-25 .styles-table .class2 .thu {
     width: 80%;
   }
-  .type-23 .styles-table .hinh1 {
+  .type-25 .styles-table .hinh1 {
     margin-left: -43px;
   }
-  .type-23 .styles-table .hinh2 {
+  .type-25 .styles-table .hinh2 {
     margin-left: -35px;
   }
-  .type-23 .styles-table .hinh3 {
+  .type-25 .styles-table .hinh3 {
     margin-left: -30px;
   }
-  .type-23 .styles-table .thu {
+  .type-25 .styles-table .thu {
     margin-left: 25px;
   }
-  .type-23 .ngoai .sidebar-nav {
+  .type-25 .ngoai .sidebar-nav {
     width: 100%;
   }
 }
-.type-23 .gift {
+.type-25 .gift {
   margin: 5px 0;
   border: 1px solid #ccc;
   padding: 10px 0px 10px 40px;
 }
-.type-23 .gift .end1 {
+.type-25 .gift .end1 {
   display: block;
   font-size: 20px;
 }
-.type-23 .gift .end2 {
+.type-25 .gift .end2 {
   width: 100px;
   font-size: 30px;
   color: #5677fc;
   text-decoration: none;
 }
-.type-23 .gift .end2::after {
+.type-25 .gift .end2::after {
   content: '';
   display: block;
   width: 0;
@@ -122,28 +122,28 @@
   background: #5677fc;
   transition: width .1s;
 }
-.type-23 .gift .end2:hover::after {
+.type-25 .gift .end2:hover::after {
   width: 49%;
   margin-left: 80px;
 }
-.type-23 .gift img {
+.type-25 .gift img {
   height: 70px;
   width: 70px;
   margin-left: -20px;
 }
-.type-23 .dropdown-menu {
+.type-25 .dropdown-menu {
   display: none;
 }
-.type-23 .sidebar-nav .dropdown .dropdown-menu li a {
+.type-25 .sidebar-nav .dropdown .dropdown-menu li a {
   display: inline-block;
   color: #000;
   text-decoration: none;
 }
-.type-23 .sidebar-nav .dropdown .dropdown-menu li a:hover {
+.type-25 .sidebar-nav .dropdown .dropdown-menu li a:hover {
   color: #5677fc;
   transition-duration: 0.5s;
 }
-.type-23 .sidebar-nav .dropdown .dropdown-menu li a::after {
+.type-25 .sidebar-nav .dropdown .dropdown-menu li a::after {
   content: '';
   display: block;
   width: 0;
@@ -151,15 +151,15 @@
   background: #5677fc;
   transition: width .3s;
 }
-.type-23 .sidebar-nav .dropdown .dropdown-menu li a:hover::after {
+.type-25 .sidebar-nav .dropdown .dropdown-menu li a:hover::after {
   width: 100%;
 }
 @media (max-width: ) {
-  .type-23 .sidebar-stacked.open + .wrapper .constructor {
+  .type-25 .sidebar-stacked.open + .wrapper .constructor {
     margin-left: 240px;
   }
 }
-.type-23 .sidebar {
+.type-25 .sidebar {
   position: relative;
   display: block;
   min-height: 100%;
@@ -167,26 +167,26 @@
   overflow-x: hidden;
   border: none;
 }
-.type-23 .sidebar::-webkit-scrollbar-track {
+.type-25 .sidebar::-webkit-scrollbar-track {
   border-radius: 2px;
 }
-.type-23 .sidebar::-webkit-scrollbar {
+.type-25 .sidebar::-webkit-scrollbar {
   width: 5px;
   background-color: #F7F7F7;
 }
-.type-23 .sidebar::-webkit-scrollbar-thumb {
+.type-25 .sidebar::-webkit-scrollbar-thumb {
   border-radius: 10px;
   background-color: #BFBFBF;
 }
-.type-23 .sidebar .sidebar-nav {
+.type-25 .sidebar .sidebar-nav {
   margin: 0;
   padding: 0;
 }
-.type-23 .sidebar .sidebar-nav li {
+.type-25 .sidebar .sidebar-nav li {
   position: relative;
   list-style-type: none;
 }
-.type-23 .sidebar .sidebar-nav li a {
+.type-25 .sidebar .sidebar-nav li a {
   position: relative;
   cursor: pointer;
   user-select: none;
@@ -201,15 +201,15 @@
   clear: both;
   font-weight: ;
 }
-.type-23 .sidebar .sidebar-nav li a .caret {
+.type-25 .sidebar .sidebar-nav li a .caret {
   position: absolute;
   right: 12px - 4px;
   top: 24px;
 }
-.type-23 .sidebar .sidebar-nav li a:hover {
+.type-25 .sidebar .sidebar-nav li a:hover {
   background: transparent;
 }
-.type-23 .sidebar .sidebar-nav .dropdown-menu {
+.type-25 .sidebar .sidebar-nav .dropdown-menu {
   position: relative;
   width: 100%;
   margin: 0;
@@ -217,22 +217,22 @@
   border: none;
   border-radius: 0;
 }
-.type-23 .sidebar {
+.type-25 .sidebar {
   width: 0;
 }
-.type-23 .sidebar.open {
+.type-25 .sidebar.open {
   min-width: 100%;
   width: 100%;
 }
 @media (max-width: ) {
-  .type-23 .sidebar.open {
+  .type-25 .sidebar.open {
     min-width: 240px;
     width: 240px;
   }
-  .type-23 .sidebar .sidebar-header {
+  .type-25 .sidebar .sidebar-header {
     height: 135px;
   }
-  .type-23 .sidebar .sidebar-image img {
+  .type-25 .sidebar .sidebar-image img {
     width: 60px - ;
     height: 60px - ;
   }
