@@ -8,7 +8,7 @@
                         <div class="swiper-slide">
                             <div class="product-item">
                                 <div class="product-image">
-                                    <a href="#"><img width="800" height="600" src="./images/1.PNG"
+                                    <a href="#"><img src="./images/1.PNG"
                                             class="img-responsive" alt="DJI Phantom 4 Quadcopter Camera">
                                     </a>
                                     <div class="product-description">
@@ -23,7 +23,7 @@
                         <div class="swiper-slide">
                             <div class="product-item">
                                 <div class="product-image">
-                                    <a href="#"><img width="800" height="600" src="./images/2.PNG"
+                                    <a href="#"><img  src="./images/2.PNG"
                                             class="img-responsive" alt="DJI Phantom 4 Quadcopter Camera">
                                     </a>
                                     <div class="product-description">
@@ -38,7 +38,7 @@
                         <div class="swiper-slide">
                             <div class="product-item">
                                 <div class="product-image">
-                                    <a href="#"><img width="800" height="600" src="./images/3.PNG"
+                                    <a href="#"><img  src="./images/3.PNG"
                                             class="img-responsive" alt="DJI Phantom 4 Quadcopter Camera">
                                     </a>
                                     <div class="product-description">
@@ -53,7 +53,7 @@
                         <div class="swiper-slide">
                             <div class="product-item">
                                 <div class="product-image">
-                                    <a href="#"><img width="800" height="600" src="./images/4.PNG"
+                                    <a href="#"><img  src="./images/4.PNG"
                                             class="img-responsive" alt="DJI Phantom 4 Quadcopter Camera">
                                     </a>
                                     <div class="product-description">
@@ -68,7 +68,7 @@
                         <div class="swiper-slide">
                             <div class="product-item">
                                 <div class="product-image">
-                                    <a href="#"><img width="800" height="600" src="./images/5.PNG"
+                                    <a href="#"><img  src="./images/5.PNG"
                                             class="img-responsive" alt="DJI Phantom 4 Quadcopter Camera">
                                     </a>
                                     <div class="product-description">
@@ -83,7 +83,7 @@
                         <div class="swiper-slide">
                             <div class="product-item">
                                 <div class="product-image">
-                                    <a href="#"><img width="800" height="600" src="./images/6.PNG"
+                                    <a href="#"><img  src="./images/6.PNG"
                                             class="img-responsive" alt="DJI Phantom 4 Quadcopter Camera">
                                     </a>
                                     <div class="product-description">
@@ -98,7 +98,7 @@
                         <div class="swiper-slide">
                             <div class="product-item">
                                 <div class="product-image">
-                                    <a href="#"><img width="800" height="600" src="./images/7.PNG"
+                                    <a href="#"><img  src="./images/7.PNG"
                                             class="img-responsive" alt="DJI Phantom 4 Quadcopter Camera">
                                     </a>
                                     <div class="product-description">
@@ -113,7 +113,7 @@
                         <div class="swiper-slide">
                             <div class="product-item">
                                 <div class="product-image">
-                                    <a href="#"><img width="800" height="600" src="./images/8.PNG"
+                                    <a href="#"><img src="./images/8.PNG"
                                             class="img-responsive" alt="DJI Phantom 4 Quadcopter Camera">
                                     </a>
                                     <div class="product-description">
@@ -128,7 +128,7 @@
                         <div class="swiper-slide">
                             <div class="product-item">
                                 <div class="product-image">
-                                    <a href="#"><img width="800" height="600" src="./images/9.PNG"
+                                    <a href="#"><img src="./images/9.PNG"
                                             class="img-responsive" alt="DJI Phantom 4 Quadcopter Camera">
                                     </a>
                                     <div class="product-description">
